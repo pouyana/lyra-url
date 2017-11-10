@@ -1,0 +1,20 @@
+{
+    "name": "rzuw/lyra-url",
+    "description": "A simple URL toolkit for Lyra",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [{
+        "name": "Pouyan Azari",
+        "email": "pouyan.azari@uni-wuerzburg.de"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "De\\Uniwue\\RZ\\Lyra\\URL": "src/"
+        }
+    },
+    "require": {
+        "ext-curl" : "*",
+        "ext-mbstring": "*"
+    }
+}
